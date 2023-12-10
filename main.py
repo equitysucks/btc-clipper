@@ -33,10 +33,7 @@ def sendDiscord(hook, update):
 
 
 def check(addr):
-    # Define a regular expression pattern to match Bitcoin addresses
     pattern = re.compile(r'\b(bc1[0-9A-Za-z]{39})\b')
-    
-    # Check if the given address matches the pattern
     return bool(re.match(pattern, addr))
 
 
